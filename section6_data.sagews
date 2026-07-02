@@ -1,8 +1,3 @@
-︠b2293547-2347-49f3-af91-b6446c2ac765︠
-# This worksheet was converted from a notebook running Jupyter kernel
-# version sage-10.6.
-︡1f70833f-b1d2-42d2-997b-8a807ee952a6︡{"stdout": "", "done": true}︡
-︠a2b80bf9-b498-4006-9b89-eb9636ec2627︠
 from sage.all import *
 from math import ceil
 from collections import OrderedDict
@@ -129,17 +124,3 @@ def run_for_k_range(r, N=1000, m=1000, threshold=10,
         all_results[k] = results_k
 
     return all_results
-︡e4e7f980-4656-4652-9c66-9968ae33c84f︡{"stdout": "", "done": true}︡
-︠10535e44-bdfe-4080-af97-31c8d8c25871︠
-outfile = open("results.txt", "w")
-sys.stdout = outfile
-︡70d811b4-5252-4096-bbea-a1da4e18a540︡{"stdout": "", "done": true}︡
-︠3bbebb8e-eeb4-4e1b-ae16-3030ceeacd11︠
-ans = run_for_k_range(15, ncols=7)
-︡cc875fc8-7cd5-421c-939b-506a0aec9011︡{"stdout": "", "done": true}︡
-︠56904931-9419-4665-9758-3a6aa0d09e78︠
-sys.stdout = sys.__stdout__
-outfile.close()
-
-print("Results written to results.txt")
-︡6a29bed7-ee2f-43d3-94ae-d67a6a22c476︡{"stdout": "", "done": true}︡
